@@ -1,0 +1,38 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Build outputs (PyInstaller)
+build/
+dist/
+*.spec
+
+# Logs
+*.log
+
+# Database files (اختياري لو مش عايز ترفعها)
+*.db
+*.sqlite
+*.sqlite3
+
+# Selenium / session data
+whatsapp_session/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
