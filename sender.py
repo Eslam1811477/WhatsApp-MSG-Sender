@@ -24,7 +24,7 @@ def send_messages(message, image_path=None):
 
     driver.get("https://web.whatsapp.com")
 
-    input("بعد QR اضغط Enter...")
+    time.sleep(10) 
 
     wait = WebDriverWait(driver, 25)
 
